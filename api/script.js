@@ -6,7 +6,7 @@ export default function handler(req, res) {
   }
 
   const script = `
-loadstring(game:HttpGet("https://pastefy.app/H7ybPX5V/raw"))()
+loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/9ewEiyOeegsfdA7E/raw"))()
 `;
 
   res.setHeader("Content-Type", "text/plain");
